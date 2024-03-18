@@ -31,6 +31,7 @@ public class VerifyPricePage {
 
     public void goToProduct()
     {
+        BrowserUtilities.waitForElementToAppear(product);
         product.click();
     }
 
