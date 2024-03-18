@@ -25,9 +25,6 @@ public class CalculationsPage {
     @FindBy(id = "add-to-cart-sauce-labs-bolt-t-shirt")
     private WebElement addToCart3;
 
-//    @FindBy(id = "add-to-cart-sauce-labs-fleece-jacket")
-//    private WebElement addToCart4;
-
     @FindBy(css = ".shopping_cart_link")
     private WebElement cart;
 
